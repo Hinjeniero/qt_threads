@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hinjeniero/projects_cpp/ejemplo1
+CMAKE_SOURCE_DIR = /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hinjeniero/projects_cpp/ejemplo1
+CMAKE_BINARY_DIR = /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ejemplo1.dir/depend.make
@@ -59,25 +59,25 @@ include CMakeFiles/ejemplo1.dir/flags.make
 
 moc_ejemplo1.cxx: ejemplo1.h
 moc_ejemplo1.cxx: moc_ejemplo1.cxx_parameters
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hinjeniero/projects_cpp/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating moc_ejemplo1.cxx"
-	/usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/hinjeniero/projects_cpp/ejemplo1/moc_ejemplo1.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating moc_ejemplo1.cxx"
+	/usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/moc_ejemplo1.cxx_parameters
 
 ui_counterDlg.h: counterDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hinjeniero/projects_cpp/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_counterDlg.h"
-	/usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/hinjeniero/projects_cpp/ejemplo1/ui_counterDlg.h /home/hinjeniero/projects_cpp/ejemplo1/counterDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_counterDlg.h"
+	/usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/ui_counterDlg.h /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/counterDlg.ui
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: CMakeFiles/ejemplo1.dir/flags.make
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: ejemplo1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hinjeniero/projects_cpp/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o -c /home/hinjeniero/projects_cpp/ejemplo1/ejemplo1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o -c /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/ejemplo1.cpp
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hinjeniero/projects_cpp/ejemplo1/ejemplo1.cpp > CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/ejemplo1.cpp > CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hinjeniero/projects_cpp/ejemplo1/ejemplo1.cpp -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/ejemplo1.cpp -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o.requires:
 
@@ -92,16 +92,16 @@ CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o.provides.build: CMakeFiles/ejemplo1.dir/e
 
 CMakeFiles/ejemplo1.dir/main.cpp.o: CMakeFiles/ejemplo1.dir/flags.make
 CMakeFiles/ejemplo1.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hinjeniero/projects_cpp/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ejemplo1.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/main.cpp.o -c /home/hinjeniero/projects_cpp/ejemplo1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ejemplo1.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/main.cpp.o -c /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/main.cpp
 
 CMakeFiles/ejemplo1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hinjeniero/projects_cpp/ejemplo1/main.cpp > CMakeFiles/ejemplo1.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/main.cpp > CMakeFiles/ejemplo1.dir/main.cpp.i
 
 CMakeFiles/ejemplo1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hinjeniero/projects_cpp/ejemplo1/main.cpp -o CMakeFiles/ejemplo1.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/main.cpp -o CMakeFiles/ejemplo1.dir/main.cpp.s
 
 CMakeFiles/ejemplo1.dir/main.cpp.o.requires:
 
@@ -116,16 +116,16 @@ CMakeFiles/ejemplo1.dir/main.cpp.o.provides.build: CMakeFiles/ejemplo1.dir/main.
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: CMakeFiles/ejemplo1.dir/flags.make
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: moc_ejemplo1.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hinjeniero/projects_cpp/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o -c /home/hinjeniero/projects_cpp/ejemplo1/moc_ejemplo1.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o -c /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/moc_ejemplo1.cxx
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hinjeniero/projects_cpp/ejemplo1/moc_ejemplo1.cxx > CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/moc_ejemplo1.cxx > CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hinjeniero/projects_cpp/ejemplo1/moc_ejemplo1.cxx -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/moc_ejemplo1.cxx -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o.requires:
 
@@ -154,13 +154,37 @@ ejemplo1: CMakeFiles/ejemplo1.dir/build.make
 ejemplo1: /usr/lib/x86_64-linux-gnu/libQtCore.so
 ejemplo1: /usr/lib/x86_64-linux-gnu/libQtGui.so
 ejemplo1: CMakeFiles/ejemplo1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hinjeniero/projects_cpp/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ejemplo1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ejemplo1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ejemplo1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 CMakeFiles/ejemplo1.dir/build: ejemplo1
 
 .PHONY : CMakeFiles/ejemplo1.dir/build
+
+# Object files for target ejemplo1
+ejemplo1_OBJECTS = \
+"CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o" \
+"CMakeFiles/ejemplo1.dir/main.cpp.o" \
+"CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
+
+# External object files for target ejemplo1
+ejemplo1_EXTERNAL_OBJECTS =
+
+CMakeFiles/CMakeRelink.dir/ejemplo1: CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o
+CMakeFiles/CMakeRelink.dir/ejemplo1: CMakeFiles/ejemplo1.dir/main.cpp.o
+CMakeFiles/CMakeRelink.dir/ejemplo1: CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o
+CMakeFiles/CMakeRelink.dir/ejemplo1: CMakeFiles/ejemplo1.dir/build.make
+CMakeFiles/CMakeRelink.dir/ejemplo1: /usr/lib/x86_64-linux-gnu/libQtCore.so
+CMakeFiles/CMakeRelink.dir/ejemplo1: /usr/lib/x86_64-linux-gnu/libQtGui.so
+CMakeFiles/CMakeRelink.dir/ejemplo1: CMakeFiles/ejemplo1.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CMakeFiles/CMakeRelink.dir/ejemplo1"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ejemplo1.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+CMakeFiles/ejemplo1.dir/preinstall: CMakeFiles/CMakeRelink.dir/ejemplo1
+
+.PHONY : CMakeFiles/ejemplo1.dir/preinstall
 
 CMakeFiles/ejemplo1.dir/requires: CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o.requires
 CMakeFiles/ejemplo1.dir/requires: CMakeFiles/ejemplo1.dir/main.cpp.o.requires
@@ -174,6 +198,6 @@ CMakeFiles/ejemplo1.dir/clean:
 
 CMakeFiles/ejemplo1.dir/depend: moc_ejemplo1.cxx
 CMakeFiles/ejemplo1.dir/depend: ui_counterDlg.h
-	cd /home/hinjeniero/projects_cpp/ejemplo1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hinjeniero/projects_cpp/ejemplo1 /home/hinjeniero/projects_cpp/ejemplo1 /home/hinjeniero/projects_cpp/ejemplo1 /home/hinjeniero/projects_cpp/ejemplo1 /home/hinjeniero/projects_cpp/ejemplo1/CMakeFiles/ejemplo1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1 /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1 /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1 /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1 /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles/ejemplo1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ejemplo1.dir/depend
 

@@ -19,7 +19,7 @@
 -I/usr/share/qt4/mkspecs/default
 -I/usr/include/qt4
 -I/usr/include/qt4/QtCore
--I/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1
+-I/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class
 -o
-/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/moc_ejemplo1.cxx
-/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/ejemplo1.h
+/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/moc_ejemplo_thread_class.cxx
+/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/ejemplo_thread_class.h

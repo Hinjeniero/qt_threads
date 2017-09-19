@@ -2,11 +2,12 @@
 
 ejemplo1::ejemplo1(): Ui_Counter()
 {	
-    this->timer->start(1000);
+    timer = QTimer();
+    this->timer.start(1000);
     setupUi(this);
     show();
     connect(button, SIGNAL(clicked()), this, SLOT(doButton()));
-    connect(this->timer, SIGNAL(timeout()), this, SLOT(doCounter()));
+    connect(this->&timer, SIGNAL(timeout()), this, SLOT(doCounter()));
 }
 
 ejemplo1::~ejemplo1()
@@ -15,10 +16,10 @@ ejemplo1::~ejemplo1()
 void ejemplo1::doButton()
 {
     qDebug() << "click on counter";
-    if (this->timer->isActive()){
-      this->timer->stop();
+    if (this->timer.isActive()){
+      this->timer.stop();
     }else{
-      this->timer->start(1000);
+      this->timer.start(1000);
     }
 }
 

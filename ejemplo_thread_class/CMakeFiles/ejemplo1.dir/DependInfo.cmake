@@ -4,9 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/ejemplo1.cpp" "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
-  "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/main.cpp" "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles/ejemplo1.dir/main.cpp.o"
-  "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/moc_ejemplo1.cxx" "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
+  "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/ejemplo1.cpp" "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
+  "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/main.cpp" "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/CMakeFiles/ejemplo1.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

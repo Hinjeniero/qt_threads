@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1
+CMAKE_SOURCE_DIR = /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1
+CMAKE_BINARY_DIR = /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,9 +113,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/CMakeFiles /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -215,33 +215,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-moc_ejemplo1.o: moc_ejemplo1.cxx.o
-
-.PHONY : moc_ejemplo1.o
-
-# target to build an object file
-moc_ejemplo1.cxx.o:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o
-.PHONY : moc_ejemplo1.cxx.o
-
-moc_ejemplo1.i: moc_ejemplo1.cxx.i
-
-.PHONY : moc_ejemplo1.i
-
-# target to preprocess a source file
-moc_ejemplo1.cxx.i:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i
-.PHONY : moc_ejemplo1.cxx.i
-
-moc_ejemplo1.s: moc_ejemplo1.cxx.s
-
-.PHONY : moc_ejemplo1.s
-
-# target to generate assembly for a file
-moc_ejemplo1.cxx.s:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s
-.PHONY : moc_ejemplo1.cxx.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -260,9 +233,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... moc_ejemplo1.o"
-	@echo "... moc_ejemplo1.i"
-	@echo "... moc_ejemplo1.s"
 .PHONY : help
 
 

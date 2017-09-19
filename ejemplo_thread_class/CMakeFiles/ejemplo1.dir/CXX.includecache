@@ -6,29 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/ejemplo1.cpp
+/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/ejemplo1.cpp
 ejemplo1.h
-/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/ejemplo1.h
+/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/ejemplo1.h
 
-/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/ejemplo1.h
+/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/ejemplo1.h
 QtGui
 -
 QTimer
 -
 ui_counterDlg.h
-/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/ui_counterDlg.h
+/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/ui_counterDlg.h
+thread.h
+/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/thread.h
 
-/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/main.cpp
+/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/main.cpp
 QtGui/QApplication
 -
 ejemplo1.h
-/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/ejemplo1.h
+/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/ejemplo1.h
 
-/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/moc_ejemplo1.cxx
-ejemplo1.h
-/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/ejemplo1.h
+/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/thread.h
+QThread
+-
+QObject
+-
+QSemaphore
+-
 
-/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/ui_counterDlg.h
+/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/ui_counterDlg.h
 QtCore/QVariant
 -
 QtGui/QAction
@@ -83,6 +89,14 @@ qpoint.h
 /usr/include/qt4/QtCore/QPointF
 qpoint.h
 /usr/include/qt4/QtCore/qpoint.h
+
+/usr/include/qt4/QtCore/QSemaphore
+qsemaphore.h
+/usr/include/qt4/QtCore/qsemaphore.h
+
+/usr/include/qt4/QtCore/QThread
+qthread.h
+/usr/include/qt4/QtCore/qthread.h
 
 /usr/include/qt4/QtCore/QTimer
 qtimer.h

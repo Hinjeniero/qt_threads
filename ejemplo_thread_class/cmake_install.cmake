@@ -1,4 +1,4 @@
-# Install script for directory: /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1
+# Install script for directory: /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,7 +33,7 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles/CMakeRelink.dir/ejemplo1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/CMakeFiles/CMakeRelink.dir/ejemplo1")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -44,5 +44,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo_thread_class/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
