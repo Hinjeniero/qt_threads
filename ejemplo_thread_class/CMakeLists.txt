@@ -4,7 +4,7 @@ find_package(Qt4 REQUIRED)
 
 include_directories(${QT_INCLUDES} ${CMAKE_CURRENT_BINARY_DIR})
 
-set(ejemplo_thread_class_SRCS ejemplo1.cpp main.cpp)
+set(ejemplo_thread_class_SRCS ejemplo1.cpp main.cpp MyQTimer.cpp)
 
 qt4_automoc(${ejemplo_thread_class_SRCS})
 add_executable(ejemplo1 ${ejemplo_thread_class_SRCS})

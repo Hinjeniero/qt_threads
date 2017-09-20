@@ -2,15 +2,14 @@
 
 ejemplo1::ejemplo1(): Ui_Counter()
 {	
-    this->my_thread = thread();
+    this->timer.start();
     setupUi(this);
     show();
-    connect(button, SIGNAL(clicked()), this->my_thread, SLOT(doButton()));
-    connect(this->my_thread, SIGNAL(timeout()), this, SLOT(doCounter()));
-    this->my_thread.run();
+    connect(button, SIGNAL(clicked()), &this->timer, SLOT(doButton()));
+    connect(&this->timer, SIGNAL(timeout()), this, SLOT(doCounter()));
 }
 
-ejemplo1::~ejemplo_thread_class()
+ejemplo1::~ejemplo1()
 {}
 
 void ejemplo1::doCounter()

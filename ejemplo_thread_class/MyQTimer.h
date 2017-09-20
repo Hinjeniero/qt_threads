@@ -15,30 +15,23 @@
  * 
  */
 
-#ifndef THREAD_H
-#define THREAD_H
+#ifndef MYQTIMER_H
+#define MYQTIMER_H
 
 #include <QThread>
 #include <QObject>
-#include <QSemaphore>
 
-class thread : public QThread
+class MyQTimer: public QThread
 {
 Q_OBJECT
-private:
-    QSemaphore count_lock;
-    QThread workerThread;
-    int count;
     void run();
 
-public:
-    thread();
-    int getCount();
-    virtual ~thread();
+signals:
     void timeout();
     
 public slots:
     void doButton();
+    virtual ~MyQTimer();
 };
 
-#endif // THREAD_H
+#endif // MYQTIMER_H
