@@ -7,14 +7,14 @@ include_directories(${QT_INCLUDES} ${CMAKE_CURRENT_BINARY_DIR})
 # Sources set
 SET ( SOURCES
   ${SOURCES}
-  ejemplo_thread_class.cpp
+  ejemplo1.cpp
   main.cpp
  )
 
 # Headers set
 SET ( HEADERS
   ${HEADERS}
-  ejemplo_thread_class.h
+  ejemplo1.h
 )
 
 FIND_PACKAGE( Qt4 REQUIRED )

@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/ejemplo_thread_class.dir/ejemplo1.cpp.o CMakeFiles/ejemplo_thread_class.dir/main.cpp.o CMakeFiles/ejemplo_thread_class.dir/moc_ejemplo1.cxx.o  -o ejemplo_thread_class -rdynamic -lQtCore -lQtGui 

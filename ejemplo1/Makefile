@@ -144,22 +144,22 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ejemplo1
+# Target rules for targets named ejemplo_thread_class
 
 # Build rule for target.
-ejemplo1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ejemplo1
-.PHONY : ejemplo1
+ejemplo_thread_class: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ejemplo_thread_class
+.PHONY : ejemplo_thread_class
 
 # fast build rule for target.
-ejemplo1/fast:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/build
-.PHONY : ejemplo1/fast
+ejemplo_thread_class/fast:
+	$(MAKE) -f CMakeFiles/ejemplo_thread_class.dir/build.make CMakeFiles/ejemplo_thread_class.dir/build
+.PHONY : ejemplo_thread_class/fast
 
 # Manual pre-install relink rule for target.
-ejemplo1/preinstall:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/preinstall
-.PHONY : ejemplo1/preinstall
+ejemplo_thread_class/preinstall:
+	$(MAKE) -f CMakeFiles/ejemplo_thread_class.dir/build.make CMakeFiles/ejemplo_thread_class.dir/preinstall
+.PHONY : ejemplo_thread_class/preinstall
 
 ejemplo1.o: ejemplo1.cpp.o
 
@@ -167,7 +167,7 @@ ejemplo1.o: ejemplo1.cpp.o
 
 # target to build an object file
 ejemplo1.cpp.o:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o
+	$(MAKE) -f CMakeFiles/ejemplo_thread_class.dir/build.make CMakeFiles/ejemplo_thread_class.dir/ejemplo1.cpp.o
 .PHONY : ejemplo1.cpp.o
 
 ejemplo1.i: ejemplo1.cpp.i
@@ -176,7 +176,7 @@ ejemplo1.i: ejemplo1.cpp.i
 
 # target to preprocess a source file
 ejemplo1.cpp.i:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i
+	$(MAKE) -f CMakeFiles/ejemplo_thread_class.dir/build.make CMakeFiles/ejemplo_thread_class.dir/ejemplo1.cpp.i
 .PHONY : ejemplo1.cpp.i
 
 ejemplo1.s: ejemplo1.cpp.s
@@ -185,7 +185,7 @@ ejemplo1.s: ejemplo1.cpp.s
 
 # target to generate assembly for a file
 ejemplo1.cpp.s:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s
+	$(MAKE) -f CMakeFiles/ejemplo_thread_class.dir/build.make CMakeFiles/ejemplo_thread_class.dir/ejemplo1.cpp.s
 .PHONY : ejemplo1.cpp.s
 
 main.o: main.cpp.o
@@ -194,7 +194,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/ejemplo_thread_class.dir/build.make CMakeFiles/ejemplo_thread_class.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -203,7 +203,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/ejemplo_thread_class.dir/build.make CMakeFiles/ejemplo_thread_class.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -212,7 +212,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/ejemplo_thread_class.dir/build.make CMakeFiles/ejemplo_thread_class.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 moc_ejemplo1.o: moc_ejemplo1.cxx.o
@@ -221,7 +221,7 @@ moc_ejemplo1.o: moc_ejemplo1.cxx.o
 
 # target to build an object file
 moc_ejemplo1.cxx.o:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o
+	$(MAKE) -f CMakeFiles/ejemplo_thread_class.dir/build.make CMakeFiles/ejemplo_thread_class.dir/moc_ejemplo1.cxx.o
 .PHONY : moc_ejemplo1.cxx.o
 
 moc_ejemplo1.i: moc_ejemplo1.cxx.i
@@ -230,7 +230,7 @@ moc_ejemplo1.i: moc_ejemplo1.cxx.i
 
 # target to preprocess a source file
 moc_ejemplo1.cxx.i:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i
+	$(MAKE) -f CMakeFiles/ejemplo_thread_class.dir/build.make CMakeFiles/ejemplo_thread_class.dir/moc_ejemplo1.cxx.i
 .PHONY : moc_ejemplo1.cxx.i
 
 moc_ejemplo1.s: moc_ejemplo1.cxx.s
@@ -239,7 +239,7 @@ moc_ejemplo1.s: moc_ejemplo1.cxx.s
 
 # target to generate assembly for a file
 moc_ejemplo1.cxx.s:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s
+	$(MAKE) -f CMakeFiles/ejemplo_thread_class.dir/build.make CMakeFiles/ejemplo_thread_class.dir/moc_ejemplo1.cxx.s
 .PHONY : moc_ejemplo1.cxx.s
 
 # Help Target
@@ -250,7 +250,7 @@ help:
 	@echo "... depend"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... ejemplo1"
+	@echo "... ejemplo_thread_class"
 	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"

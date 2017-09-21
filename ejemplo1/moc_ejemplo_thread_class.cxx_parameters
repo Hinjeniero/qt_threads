@@ -8,7 +8,6 @@
 -I/usr/include/qt4/QtOpenGL
 -I/usr/include/qt4/QtNetwork
 -I/usr/include/qt4/QtXmlPatterns
--I/usr/include/qt4/QtWebKit
 -I/usr/include/qt4/QtHelp
 -I/usr/include/qt4/QtUiTools
 -I/usr/include/qt4/QtTest
@@ -20,7 +19,7 @@
 -I/usr/share/qt4/mkspecs/default
 -I/usr/include/qt4
 -I/usr/include/qt4/QtCore
--I/home/salabeta/qtEjemplo1/ejemplo1/build
+-I/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1
 -o
-/home/salabeta/qtEjemplo1/ejemplo1/build/moc_ejemplo1.cxx
-/home/salabeta/qtEjemplo1/ejemplo1/ejemplo1.h
+/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/moc_ejemplo_thread_class.cxx
+/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/ejemplo_thread_class.h

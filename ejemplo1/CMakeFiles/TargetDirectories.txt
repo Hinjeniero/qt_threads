@@ -1,6 +1,6 @@
 /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles/install.dir
 /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles/list_install_components.dir
-/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles/ejemplo1.dir
+/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles/ejemplo_thread_class.dir
 /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles/install/local.dir
 /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles/rebuild_cache.dir
 /home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles/edit_cache.dir

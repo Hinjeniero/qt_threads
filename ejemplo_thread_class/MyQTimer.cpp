@@ -2,7 +2,7 @@
 #include "MyQTimer.h"
 
 void MyQTimer::run (){
-    while (1){
+    while (true){
 	emit timeout();
 	this->msleep(1000);
 	

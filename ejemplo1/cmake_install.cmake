@@ -33,7 +33,7 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles/CMakeRelink.dir/ejemplo1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/hinjeniero/github_hinjeniero/projects_cpp/qt_threads/ejemplo1/CMakeFiles/CMakeRelink.dir/ejemplo_thread_class")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -9,7 +9,7 @@ class ejemplo1 : public QWidget, public Ui_Counter
 {
 Q_OBJECT
 private: 
-    QTimer timer;
+    QTimer *timer;
 public:
     ejemplo1();
     virtual ~ejemplo1();
